@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t $IMAGE_NAME .
+          run: docker build -t $IMAGE_NAME -f app/Dockerfile app/
 
       - name: Install Trivy
         run: |
