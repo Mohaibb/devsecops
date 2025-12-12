@@ -1,4 +1,4 @@
-package docker.security
+package main
 
 approved_images := [
   "python:3.11-slim",

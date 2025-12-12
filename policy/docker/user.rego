@@ -1,4 +1,4 @@
-package docker.security
+package main
 
 deny[msg] {
   input.kind == "Dockerfile"
